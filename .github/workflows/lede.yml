@@ -11,6 +11,8 @@ env:
 
 jobs:
   build:
+    runs-on: ubuntu-22.04
+
     steps:
     - name: try1
       uses: ./.github/workflows/common.yml
