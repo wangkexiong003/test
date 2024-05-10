@@ -6,7 +6,7 @@ on:
     - '.github/workflows/lede.yml'
 
 env:
-  TEMP_1: 11111
+  TEMP_1: aaaaa
   TEMP_2: 22222
 
 jobs:
@@ -15,4 +15,4 @@ jobs:
 
     steps:
     - name: try1
-      uses: ./.github/workflows/common.yml
+      run: echo ${{ env.TEMP_1_UPPER }}
