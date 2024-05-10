@@ -13,4 +13,4 @@ jobs:
   build:
     steps:
     - name: try1
-      uses: .github\workflows\common.yml 
+      uses: .github\workflows\common.yml
